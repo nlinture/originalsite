@@ -1,0 +1,74 @@
+.images{
+    display:inline-block;
+    width: 150px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    padding: 2px;
+    border-radius: 2px;
+}
+.mainpage div{
+    text-align: center;
+    padding:5px;
+    margin: 5px;
+    width: 170px;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+    padding: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(230, 230, 230, 0.829);
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(61, 61, 61);
+    justify-content: space-evenly;
+}
+nav li:hover{
+    background-color: rgb(110, 109, 109);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+body{
+    background-color: rgba(99, 83, 95, 0.37);
+}
+div p{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+.skiptocontent{
+    position: absolute;
+    left: -1000px;
+    z-index: 100;
+    padding: 5px;
+}
+.skiptocontent:focus{
+    left: 50%;
+    transform: translateX(-50%);
+}
+section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+div:nth-child(even){
+    border: 2px solid;
+}
+.peoplewatch{
+    text-decoration: none;
+    background-color: rgb(56, 55, 55);
+    color: rgb(240, 230, 230);
+    padding: 5px;
+}
+.com{
+    text-decoration: none;
+    background-color: rgb(56, 55, 55);
+    color: rgb(240, 230, 230);
+    padding: 5px;
+}
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
